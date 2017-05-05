@@ -1,0 +1,215 @@
+{% extends "main.html" %}
+
+{% block body %}
+
+<center><div class="panel-group" id="accordion1">
+ <div class="panel panel-default">
+   <div class="panel-heading">
+     <h4 class="panel-title">
+       <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#collapseTwo">
+         Programming
+       </a>
+     </h4>
+   </div>
+   <div id="collapseTwo" class="accordion-body collapse">
+     <div class="accordion-inner">
+
+       <!-- Here we insert another nested accordion -->
+
+       <div class="panel-group" id="accordion2">
+
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerOne">
+                 Python
+               </a>
+             </h4>
+           </div>
+           <div id="collapseInnerOne" class="accordion-body collapse ">
+             <center><div class="panel-body">
+              <!-- add books below -->
+               <form action="/python/" method="POST">
+                  <input type="submit" class ='btn btn-default' name="book" value = "Automate the Boring Stuff with Python"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Data Science from Scratch- First Principles with Python"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Designing Machine Learning Systems with Python"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Flask Web Development - Developing Web Applications with Python"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Fluent Python"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Hello Web App"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Introducing Data Science - Big Data, Machine Learning and more, using Python tools"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Learning Python Powerful Object-Oriented Programming"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Mastering Django Core"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Practical Computer Vision with SimpleCV"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Programming Computer Vision"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Python Crash Course"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Python Machine Learning"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Python Playground"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "tango with django"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Web Scraping with Python"></input></br>
+                  <input type="submit" class ='btn btn-default' name="book" value = "Essential SQLAlchemy"></input></br>
+
+              </form>
+
+
+             </div></center>
+           </div>
+         </div>
+
+
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion2" href="#collapseInnerTwo">
+                 Lisp
+               </a>
+             </h4>
+           </div>
+           <div id="collapseInnerTwo" class="accordion-body collapse">
+             <center><div class="panel-body">
+
+                <form action="/lisp/" method="POST">
+                   <input type="submit" class ='btn btn-default' name="book" value = "An Introduction to Programming in Emacs Lisp"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "ANSI Common Lisp"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Common Lisp - A Gentle Introduction to Symbolic Computation"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Common Lisp - An Interactive Approach"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Common Lisp - The Language"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Fullstack Lisp"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Land of Lisp - Learn to Program in Lisp, One Game at a Time"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Lisp - lsystems"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Lisp Lore - A Guide to Programming the Lisp Machine"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Object-Oriented Programming in Common Lisp - A Programmer's Guide to CLOS"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "On Lisp - Advanced Techniques for Common Lisp"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Paradigms of Artificial Intelligence Programming"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Practical Common Lisp"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Successful Lisp - How to Understand and Use Common Lisp"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "The Little Schemer"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "The Reasoned Schemer"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "The Seasoned Schemer"></input></br>
+
+
+               </form>
+
+             </div></center>
+           </div>
+         </div>
+
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion3" href="#collapseInnerThree">
+                 C++
+               </a>
+             </h4>
+           </div>
+           <div id="collapseInnerThree" class="accordion-body collapse">
+             <center><div class="panel-body">
+
+                <form action="/c++/" method="POST">
+                   <input type="submit" class ='btn btn-default' name="book" value = "Algorithms - Code Well Academy"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "C++ Programming From Problem Analysis to Program Design"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Data Structures and Algorithms in C++"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Introduction to Algorithms"></input></br>
+                </form>
+
+             </div></center>
+           </div>
+         </div>
+
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion4" href="#collapseInnerFour">
+                 Security
+               </a>
+             </h4>
+           </div>
+           <div id="collapseInnerFour" class="accordion-body collapse">
+             <center><div class="panel-body">
+
+                <form action="/security/" method="POST">
+                   <input type="submit" class ='btn btn-default' name="book" value = "Initiating to Ethical Hacking with Kali Linux"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Intermediate Security Testing"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Mastering Kali Linux Wireless Pentesting"></input></br>
+                </form>
+
+             </div></center>
+           </div>
+         </div>
+
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion5" href="#collapseInnerFive">
+                 C
+               </a>
+             </h4>
+           </div>
+           <div id="collapseInnerFive" class="accordion-body collapse">
+             <center><div class="panel-body">
+
+                <form action="/c/" method="POST">
+                   <input type="submit" class ='btn btn-default' name="book" value = "The C Programming Language"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "C Answer Book"></input></br>
+                </form>
+
+             </div></center>
+           </div>
+         </div>
+
+         <div class="panel panel-default">
+           <div class="panel-heading">
+             <h4 class="panel-title">
+               <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion6" href="#collapseInnerSix">
+                 Raspberry Pi & Arduino
+               </a>
+             </h4>
+           </div>
+           <div id="collapseInnerSix" class="accordion-body collapse">
+             <center><div class="panel-body">
+
+                <form action="/raspberryPiArduino/" method="POST">
+                   <input type="submit" class ='btn btn-default' name="book" value = "Arduino Development Cookbook"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "C Programming For Arduino"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Raspberry Pi Cookbook For Python Programmers"></input></br>
+                   <input type="submit" class ='btn btn-default' name="book" value = "Raspberry Pi Projects For Kids"></input></br>
+
+                </form>
+
+             </div></center>
+           </div>
+         </div>
+
+       </div>
+
+       <!-- Inner accordion ends here -->
+
+     </div>
+   </div>
+ </div>
+ </div></center>
+
+ {% endblock %}
+
+ {% block content %}
+
+<center>
+  <h4> Add a book </h4></p>
+</center>
+
+ <center><form action = "http://localhost:5000/uploader" method = "POST"
+         enctype = "multipart/form-data">
+
+          <label class="btn btn-default btn-file">
+            Upload <input type="file" name = "file" style="display: none;"/>
+          </label>
+
+          <label class="btn btn-default btn-file">
+            Submit <input type="submit" style="display: none;"/>
+          </label>
+
+
+
+
+</form></center>
+
+  {% endblock %}
